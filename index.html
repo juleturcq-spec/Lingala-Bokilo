@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+  <meta name="theme-color" content="#0f3d2e" />
+  <link rel="manifest" href="./manifest.webmanifest" />
+  <link rel="stylesheet" href="./src/styles.css" />
+  <title>Lingala Bokilo</title>
+</head>
+<body>
+
+  <header class="topbar">
+    <div class="brand">
+      <span class="logo">LB</span>
+      <div>
+        <div class="title">Lingala Bokilo</div>
+        <div class="subtitle">
+          Lingala ya Kin • Offline-first • Sync Supabase (optionnel)
+        </div>
+      </div>
+    </div>
+    <button id="installBtn" class="btn ghost">Installer</button>
+  </header>
+
+  <main id="app" class="app"></main>
+
+  <nav class="tabs">
+    <button class="tab active" data-tab="home">Accueil</button>
+    <button class="tab" data-tab="lessons">Leçons</button>
+    <button class="tab" data-tab="review">Révision</button>
+    <button class="tab" data-tab="music">Musiques</button>
+    <button class="tab" data-tab="profile">Profil</button>
+  </nav>
+
+  <script type="module" src="./src/app.js"></script>
+
+</body>
+</html>
