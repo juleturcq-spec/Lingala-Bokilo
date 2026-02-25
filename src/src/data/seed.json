@@ -1,0 +1,74 @@
+{
+  "items": [
+    {
+      "id": "i1",
+      "level": "N1",
+      "lingala": "Mbote!",
+      "french": "Bonjour !",
+      "transliteration": "",
+      "notes": "Salutation standard.",
+      "register": "neutral",
+      "tags": ["salutation"]
+    },
+    {
+      "id": "i2",
+      "level": "N1",
+      "lingala": "Sango nini?",
+      "french": "Quoi de neuf ?",
+      "transliteration": "",
+      "notes": "Très utilisé à Kinshasa.",
+      "register": "street",
+      "tags": ["salutation", "kin"]
+    },
+    {
+      "id": "i3",
+      "level": "N1",
+      "lingala": "Naza malamu.",
+      "french": "Je vais bien.",
+      "transliteration": "",
+      "notes": "",
+      "register": "neutral",
+      "tags": ["bases"]
+    },
+    {
+      "id": "i4",
+      "level": "N1",
+      "lingala": "Yo nde?",
+      "french": "Et toi ?",
+      "transliteration": "",
+      "notes": "Version street soft.",
+      "register": "street",
+      "tags": ["bases", "kin"]
+    },
+    {
+      "id": "i5",
+      "level": "N1",
+      "lingala": "Talo nini?",
+      "french": "C’est combien ?",
+      "transliteration": "",
+      "notes": "Pour demander le prix.",
+      "register": "street",
+      "tags": ["marche", "kin"]
+    },
+    {
+      "id": "i6",
+      "level": "N2",
+      "lingala": "Nakoki koloba na yo mwa moke?",
+      "french": "Je peux te parler un petit moment ?",
+      "transliteration": "",
+      "notes": "Approche respectueuse.",
+      "register": "polite",
+      "tags": ["draguer", "respect"]
+    },
+    {
+      "id": "i7",
+      "level": "N2",
+      "lingala": "Soki olingi te, ezali malamu.",
+      "french": "Si tu ne veux pas, c’est ok.",
+      "transliteration": "",
+      "notes": "Toujours respecter le consentement.",
+      "register": "polite",
+      "tags": ["draguer", "consentement"]
+    }
+  ]
+}
