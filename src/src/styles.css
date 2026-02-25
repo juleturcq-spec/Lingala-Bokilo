@@ -1,0 +1,121 @@
+:root{
+  --bg:#071a13;
+  --card:#0c2b20;
+  --text:#e9fff6;
+  --muted:#a7d7c7;
+  --accent:#27c18a;
+  --radius:16px;
+
+  font-family: -apple-system, system-ui, Segoe UI, Roboto, Arial, sans-serif;
+}
+
+*{
+  box-sizing:border-box;
+}
+
+body{
+  margin:0;
+  background:var(--bg);
+  color:var(--text);
+}
+
+.topbar{
+  padding:14px 16px;
+  position:sticky;
+  top:0;
+  background:rgba(7,26,19,.95);
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  border-bottom:1px solid rgba(255,255,255,.06);
+}
+
+.brand{
+  display:flex;
+  gap:12px;
+  align-items:center;
+}
+
+.logo{
+  width:40px;
+  height:40px;
+  border-radius:12px;
+  background:linear-gradient(135deg,var(--accent),#0aa36f);
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  font-weight:900;
+}
+
+.title{
+  font-weight:900;
+}
+
+.subtitle{
+  font-size:12px;
+  color:var(--muted);
+}
+
+.app{
+  padding:16px;
+  padding-bottom:90px;
+}
+
+.card{
+  background:var(--card);
+  border-radius:var(--radius);
+  padding:14px;
+  margin-bottom:12px;
+}
+
+.h1{
+  font-size:18px;
+  font-weight:900;
+  margin-bottom:6px;
+}
+
+.small{
+  font-size:13px;
+  color:var(--muted);
+}
+
+.tabs{
+  position:fixed;
+  bottom:0;
+  left:0;
+  right:0;
+  display:flex;
+  padding:10px;
+  gap:8px;
+  background:rgba(7,26,19,.95);
+}
+
+.tab{
+  flex:1;
+  padding:10px;
+  border-radius:14px;
+  border:none;
+  background:transparent;
+  color:var(--text);
+  font-weight:700;
+}
+
+.tab.active{
+  background:rgba(39,193,138,.15);
+  color:var(--accent);
+}
+
+.btn{
+  padding:8px 12px;
+  border-radius:12px;
+  border:none;
+  background:var(--accent);
+  color:#072015;
+  font-weight:800;
+}
+
+.btn.ghost{
+  background:transparent;
+  border:1px solid rgba(255,255,255,.15);
+  color:var(--text);
+}
